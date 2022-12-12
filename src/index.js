@@ -46,7 +46,7 @@ function createMarkupList(arr) {
 function createMarkupCard(arr) {
     const list = arr.map(({flags,name,capital,population,languages}) => { return`
     <div class="title">
-    <li class="country-item">
+    <li class="country-card">
     <img src="${flags.svg}" alt="${name.official}" width = "120px" height = "120px">
     <h1>${name.official}</h1>
     <h2>Capital: ${capital}</h2>
