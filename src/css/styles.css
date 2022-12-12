@@ -18,3 +18,24 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+.country-list {
+  list-style: none;
+  display: flex; 
+  margin-right: 100px;
+}
+
+.country-item {
+  background-color: #e4eef8;
+  border-radius: 24px;
+  padding: 20px; 
+  margin-right: 20px; 
+}
+
+.country-card {
+  background-color: #e4eef8;
+  border-radius: 24px;
+  padding: 20px; 
+  margin-right: 20px; 
+}
